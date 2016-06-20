@@ -1,0 +1,31 @@
+.container{
+	width: 900px;
+	margin: 0 auto;
+	padding: 10px 20px 20px 20px;
+	border: dashed 2px #C8B6B6;
+	border-radius: 8px;
+}
+.clear{
+	clear: both;
+	content: "";
+	display: table;
+}
+img.center-image{
+	width: 500px;
+	border-radius: 4px;
+}
+h1{
+	color: #757070;
+	font-size: 1.6em;
+}
+.ops{
+	font-size: 2em;
+	color: #DED20C;
+}
+.left{float: left;}
+.right{
+	float: right;
+	margin-left: 20px;
+	color: #757070;
+	font-size: 1.2em;
+}
