@@ -1,0 +1,136 @@
+html{
+	background-color: #efefef;
+	font-family: sans-serif, 'Open Sans';
+	background-image: url(../img/background-tile.png);
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+.container:after{
+	margin: 0 auto;
+	clear: both;
+	content: "";
+	display: table;
+}
+.site-header{
+	background-color: #0bbcff;
+	border-bottom: solid 4px #9c27b0;
+}
+.main-logo{
+	margin: 18px 0 40px 100px;
+	float: left;
+}
+.main-logo h1{
+	font-size: 36px;
+	color: #ffffff;
+}
+.side-logo ul{
+	float: right;
+	list-style: none;
+	margin: 35px 100px 40px 0;
+	padding-left: 0;
+}
+.side-logo ul li{
+	float: left;
+	padding-left: 10px;
+}
+.side-logo ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.side-logo ul li a:hover{
+	color: #9c27b0;
+	background-color: #fff;
+}
+.site-nav{clear: both;}
+
+.site-nav ul{
+	padding: 0;
+	margin: 0 0 0 100px;
+	list-style: none;
+}
+.site-nav ul:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.site-nav ul li{
+	float: left;
+}
+.site-nav ul li a{
+	font-size: 14px;
+	color: #212121;
+	text-align: center;
+	line-height: 30px;
+	padding: 0 8px;
+	margin-right: 8px;
+	text-decoration: none;
+	background-color: #e1bee7;
+	border-radius: 4px 4px 0 0; 
+	display: block;
+}
+.site-nav ul li.active a,
+.site-nav ul li a:hover{ 
+	color: #ffffff;
+	background-color: #9c27b0;
+}
+.content-title{
+	clear: both;
+}
+.content-title h2{
+	margin: 40px auto 20px auto;
+	font-size: 16px;
+	color: #0bbcff;
+	text-align: center;
+}
+.content-title h2:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.content-title img{
+	margin: 0 auto 30px auto;
+	display: block;
+}
+.main-content{
+	margin-left:100px;
+}
+.img-padding img{
+	float: left;
+	border: solid 1px rgba(255,255,255,0);
+	margin: 0 20px 20px 0;
+}
+.img-padding img:hover{
+	border: solid 1px #0bbcff;
+	border-radius: 2px;
+}
+
+footer{
+	clear: both;
+	margin-top: 50px;
+}
+footer p{
+	margin: 0 auto;
+	font-size: 14px;
+	color: #212121;
+	border-top: solid 4px #0bbcff;
+	padding: 35px 0;
+	text-align: center;
+}
+span{
+	color: #3b5998;
+}
+
+footer p:after{
+	clear: both;
+	display: table;
+	content: "";
+}

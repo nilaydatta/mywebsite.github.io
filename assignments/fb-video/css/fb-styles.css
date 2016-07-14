@@ -1,0 +1,95 @@
+/*classes "container" and "clear" are solely for centering purpose and to assign a solid boundary to the document.*/
+.container{
+	width: 496px;
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #e9eaed;
+	font-family: 'Pontano Sans', sans-serif;
+}
+.clear{
+	display: table;
+	content: "";
+	clear: both;
+}
+.content-box{
+	border-radius: 1px;
+	margin: 0;
+	background-color: #fff;
+	padding: 13px 13px 0 13px;
+}
+.first-content{
+	margin: 0;
+}
+.first-content img{float: left;}
+.first-content-text{
+	background-image: url(../img/first-box-text.jpg);
+	margin: 0 0 0 49px;
+	padding: 0;
+}
+.first-content-text h2{font-size: 13px;
+	line-height: 20px;
+	padding: 0; margin: 0;
+	color: #3b5998;
+}
+.first-content-text h4{font-size: 11px;
+	line-height: 20px;
+	padding: 0; margin: 0;
+	color: #9197a3;
+}
+.second-content{
+	margin: 0; padding: 0;
+	font-size: 11px;
+	line-height: 40px;
+	color: #6d84b4;
+}
+.third-content{
+	background-image: url(../img/third-content.jpg);
+	margin: 0; padding: 0;
+	display: block;
+}
+.third-content-text{
+	margin: 0 0 0 167px;
+	padding: 0;
+	height: 158px;
+}
+.third-content-text h1{font-size: 16px;
+	font-family: 'Source Serif Pro', serif;
+	line-height: 20px;
+	padding: 10px 0; margin: 0;
+	color: #141823;
+}
+.third-content-text h4{font-size: 11px;
+	line-height: 17px;
+	padding: 0; margin: 3px 0 0 0;
+	color: #141823;
+}
+.third-content-text p{font-size: 9px;
+	line-height: 10px;
+	padding: 0; margin: 9px 0 18px 0;
+	color: #9197a3;
+}
+.fourth-content{
+	padding: 6px 0 6px 0px;
+	margin: 0;
+	font-size: 11px;
+	line-height: 12px;
+}
+.fourth-content ul{
+	padding: 0;
+}
+.fourth-content ul li{
+	list-style: none;
+	color: #6d84c0;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.fifth-content{
+	padding: 0 0 6px 13px;
+	margin: 0;
+	background-color: #f6f7f8;
+	border-bottom-right-radius: 1px;
+	border-bottom-left-radius: 1px;
+}

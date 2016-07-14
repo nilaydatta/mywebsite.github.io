@@ -1,0 +1,112 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      <div class="container clear">
+        <form class="form-content">
+          <header class="head">
+            <h3>Phone Numbers</h3>
+            <p>You will get SMS on your primary number</p>
+          </header>
+          <section class="clear">
+            <div class="f-left">
+              <label for="f-primary">Mobile Number</label>
+            </div>
+            <div class="f-right">
+              <div class="f-style">
+                <input type="number" id="f-primary" min="1000000000" max="9999999999" placeholder="1234512345" >
+                <span class="green-txt">Primary number</span>
+              </div>
+              <div class="f-style">
+                <input type="number" id="f-primary" min="1000000000" max="9999999999" placeholder="1234512345">
+                <span><input type="radio" id="make-pri"></span>
+                <span class="grey-txt"><label for="make-pri">Make this Primary number</label></span>
+                <span><input type="button" id="button" value="Remove"></span>
+              </div>
+              <p class="blue-txt">add another phone</p>
+            </div>
+          </section>
+          <header class="head">
+            <h3>E-mail ID's</h3>
+            <p>You will get SMS alerts on your primary e-mail</p>
+          </header>
+          <section class="clear">
+            <div class="f-left">
+              <label for="f-primary-email">E-mail</label>
+            </div>
+            <div class="f-right">
+              <div class="f-style">
+                <input type="text" id="f-primary-email" placeholder="joseph_smith@company.com" >
+                <span class="green-txt">Primary e-mail</span>
+              </div>
+              <div class="f-style">
+                <input type="text" id="f-primary" placeholder="joseph_smith@company.com" >
+                <span><input type="radio" id="e-pri"></span>
+                <span class="grey-txt"><label for="e-pri">Make this Primary e-mail</label></span>
+                <span><input type="button" id="button" value="Remove"></span>
+              </div>
+              <p class="blue-txt">add another e-mail id</p>
+            </div>
+          </section>
+          <header class="head">
+            <h3>Social Media & Websites</h3>
+          </header>
+          <section class="clear">
+            <div class="f-left">
+              <label for="f-primary-social">Social Media</label>
+            </div>
+            <div class="f-right">
+              <div class="f-style">
+                <input type="text" id="f-primary-social" placeholder="facebook">&nbsp&nbsp
+                <input type="text" id="f-primary-social" placeholder="twitter">
+                <span><input type="button" id="button" value="Remove"></span>
+              </div>
+              <p class="blue-txt">add another</p>
+            </div>
+            <div class="f-left">
+              <label for="f-primary-web">Websites</label>
+            </div>
+            <div class="f-right">
+              <div class="f-style">
+                <input type="text" id="f-primary-web" placeholder="www.abcd.com">
+                <span><input type="button" id="button" value="Remove"></span>
+              </div>
+              <p class="blue-txt">add another website</p>
+            </div>
+          </section>
+        </form>
+      </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
